@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^download/([0-9]+)$ download.php?id=$1 [L]
